@@ -11,8 +11,14 @@ public class Main {
      */
 
     public static <artists> void main(String[] args) {
+        /*
+        Ellie- 
+        This is top notch work! You made appropriate use of class methods
+        and wrote accurate/concise code.
+        Remember to comment!
+        */
         try {
-            File myObj = new File("/Users/elliezhou/Desktop/artistList.txt");
+            File myObj = new File("C:\\Users\\Peter Wallace Local\\Downloads\\artistList.txt");
             Scanner myReader = new Scanner (myObj);
             int numArtists = myReader.nextInt();
             String temporary = myReader.nextLine();
